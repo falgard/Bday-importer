@@ -25,8 +25,10 @@ ________________________________
 	---------------	
 
 	1.2 Getting Started
-        --------------------
-Fill in the years and municipals that you want to fetch birthdays for, in the importer.Input.INPUT_FILE. Note: It's important that they are in that order, and that atleast one of each category is entered. Then just enter the wanted month as an main argument with the format 1-12 for desired month. 
+	-------------------
+	Fill in the years and municipals that you want to fetch birthdays for, in the importer.Input.INPUT_FILE. 
+	Note: It's important that they are in that order, and that atleast one of each category is entered. 
+	Then just enter the wanted month as an main argument with the format 1-12 for desired month. 
 
 ------------------------------------
 | 2.IMPORTANT NOTES BEFORE RUNNING |
@@ -44,7 +46,10 @@ Fill in the years and municipals that you want to fetch birthdays for, in the im
 	2.2 Restrictions
 	----------------
 
-This version will only run on the Swedish version of www.birthday.se, because the parser only works for Swedish in the current version. Also it will only fetch as many people as are specified in importer.Fetcher.NUMBEROFPEOPLE which at default is set to '1000' in the current version. Fulhack indeed, but that's how it's gonna go down for now. 
+	This version will only run on the Swedish version of www.birthday.se, because the parser only works 
+	for Swedish in the current version. Also it will only fetch as many people as are specified in 
+	importer.Fetcher.NUMBEROFPEOPLE which at default is set to '1000' in the current version. 
+	Fulhack indeed, but that's how it's gonna go down for now. 
 
 	2.3 External JARS
 	-----------------
@@ -71,7 +76,9 @@ This version will only run on the Swedish version of www.birthday.se, because th
 
 	4.1 Latest major fixes 
 	----------------
-Version 1.2 - Removed bug in Fetcher.java, didn't fetch from all municipals. Removed % from %c= in string url (line 38) which messed up the characters.
+	Version 1.2 - Removed bug in Fetcher.java, didn't fetch from all municipals. Removed % from %c= in string url 
+	(line 38) which messed up the characters.
 
-Version 1.1 - Generic numberOfYears and numberOfMunicipals in importer.Input. Which means that it doesn't matter if that value matches the one in the INPUT_FILE. The program will fix it automagically.
+	Version 1.1 - Generic numberOfYears and numberOfMunicipals in importer.Input. Which means that it doesn't 
+	matter if that value matches the one in the INPUT_FILE. The program will fix it automagically.
 	
